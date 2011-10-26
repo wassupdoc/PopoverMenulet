@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B92217531458647500273782 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92217521458647500273782 /* Cocoa.framework */; };
+		B922175D1458647500273782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B922175B1458647500273782 /* InfoPlist.strings */; };
+		B922175F1458647500273782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B922175E1458647500273782 /* main.m */; };
+		B92217631458647500273782 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B92217611458647500273782 /* Credits.rtf */; };
+		B92217661458647500273782 /* WOMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B92217651458647500273782 /* WOMAppDelegate.m */; };
+		B92217691458647500273782 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92217671458647500273782 /* MainMenu.xib */; };
+		B9221774145864C700273782 /* WOMMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9221773145864C700273782 /* WOMMenulet.m */; };
+		B92217771458661C00273782 /* WOMController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92217761458661C00273782 /* WOMController.m */; };
+		B922177B14586B4800273782 /* WOMPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = B922177914586B4800273782 /* WOMPopoverController.m */; };
+		B922177C14586B4800273782 /* WOMPopoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B922177A14586B4800273782 /* WOMPopoverController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B922174E1458647500273782 /* PopoverMenulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverMenulet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92217521458647500273782 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B92217551458647500273782 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B92217561458647500273782 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B92217571458647500273782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B922175A1458647500273782 /* PopoverMenulet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopoverMenulet-Info.plist"; sourceTree = "<group>"; };
+		B922175C1458647500273782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B922175E1458647500273782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B92217601458647500273782 /* PopoverMenulet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopoverMenulet-Prefix.pch"; sourceTree = "<group>"; };
+		B92217621458647500273782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B92217641458647500273782 /* WOMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WOMAppDelegate.h; sourceTree = "<group>"; };
+		B92217651458647500273782 /* WOMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WOMAppDelegate.m; sourceTree = "<group>"; };
+		B92217681458647500273782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B9221772145864C700273782 /* WOMMenulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOMMenulet.h; sourceTree = "<group>"; };
+		B9221773145864C700273782 /* WOMMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOMMenulet.m; sourceTree = "<group>"; };
+		B92217751458661C00273782 /* WOMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOMController.h; sourceTree = "<group>"; };
+		B92217761458661C00273782 /* WOMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOMController.m; sourceTree = "<group>"; };
+		B922177814586B4800273782 /* WOMPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOMPopoverController.h; sourceTree = "<group>"; };
+		B922177914586B4800273782 /* WOMPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOMPopoverController.m; sourceTree = "<group>"; };
+		B922177A14586B4800273782 /* WOMPopoverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WOMPopoverController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B922174B1458647500273782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92217531458647500273782 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B92217431458647500273782 = {
+			isa = PBXGroup;
+			children = (
+				B92217581458647500273782 /* PopoverMenulet */,
+				B92217511458647500273782 /* Frameworks */,
+				B922174F1458647500273782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B922174F1458647500273782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B922174E1458647500273782 /* PopoverMenulet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B92217511458647500273782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B92217521458647500273782 /* Cocoa.framework */,
+				B92217541458647500273782 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B92217541458647500273782 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B92217551458647500273782 /* AppKit.framework */,
+				B92217561458647500273782 /* CoreData.framework */,
+				B92217571458647500273782 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B92217581458647500273782 /* PopoverMenulet */ = {
+			isa = PBXGroup;
+			children = (
+				B92217591458647500273782 /* Supporting Files */,
+				B92217641458647500273782 /* WOMAppDelegate.h */,
+				B92217651458647500273782 /* WOMAppDelegate.m */,
+				B92217671458647500273782 /* MainMenu.xib */,
+				B92217751458661C00273782 /* WOMController.h */,
+				B92217761458661C00273782 /* WOMController.m */,
+				B9221772145864C700273782 /* WOMMenulet.h */,
+				B9221773145864C700273782 /* WOMMenulet.m */,
+				B922177814586B4800273782 /* WOMPopoverController.h */,
+				B922177914586B4800273782 /* WOMPopoverController.m */,
+				B922177A14586B4800273782 /* WOMPopoverController.xib */,
+			);
+			path = PopoverMenulet;
+			sourceTree = "<group>";
+		};
+		B92217591458647500273782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B922175A1458647500273782 /* PopoverMenulet-Info.plist */,
+				B922175B1458647500273782 /* InfoPlist.strings */,
+				B922175E1458647500273782 /* main.m */,
+				B92217601458647500273782 /* PopoverMenulet-Prefix.pch */,
+				B92217611458647500273782 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B922174D1458647500273782 /* PopoverMenulet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B922176C1458647500273782 /* Build configuration list for PBXNativeTarget "PopoverMenulet" */;
+			buildPhases = (
+				B922174A1458647500273782 /* Sources */,
+				B922174B1458647500273782 /* Frameworks */,
+				B922174C1458647500273782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopoverMenulet;
+			productName = PopoverMenulet;
+			productReference = B922174E1458647500273782 /* PopoverMenulet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B92217451458647500273782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Wuonm Web Services S.L.";
+			};
+			buildConfigurationList = B92217481458647500273782 /* Build configuration list for PBXProject "PopoverMenulet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B92217431458647500273782;
+			productRefGroup = B922174F1458647500273782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B922174D1458647500273782 /* PopoverMenulet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B922174C1458647500273782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B922175D1458647500273782 /* InfoPlist.strings in Resources */,
+				B92217631458647500273782 /* Credits.rtf in Resources */,
+				B92217691458647500273782 /* MainMenu.xib in Resources */,
+				B922177C14586B4800273782 /* WOMPopoverController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B922174A1458647500273782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B922175F1458647500273782 /* main.m in Sources */,
+				B92217661458647500273782 /* WOMAppDelegate.m in Sources */,
+				B9221774145864C700273782 /* WOMMenulet.m in Sources */,
+				B92217771458661C00273782 /* WOMController.m in Sources */,
+				B922177B14586B4800273782 /* WOMPopoverController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B922175B1458647500273782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B922175C1458647500273782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B92217611458647500273782 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B92217621458647500273782 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B92217671458647500273782 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B92217681458647500273782 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B922176A1458647500273782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B922176B1458647500273782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B922176D1458647500273782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopoverMenulet/PopoverMenulet-Prefix.pch";
+				INFOPLIST_FILE = "PopoverMenulet/PopoverMenulet-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B922176E1458647500273782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopoverMenulet/PopoverMenulet-Prefix.pch";
+				INFOPLIST_FILE = "PopoverMenulet/PopoverMenulet-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B92217481458647500273782 /* Build configuration list for PBXProject "PopoverMenulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B922176A1458647500273782 /* Debug */,
+				B922176B1458647500273782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B922176C1458647500273782 /* Build configuration list for PBXNativeTarget "PopoverMenulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B922176D1458647500273782 /* Debug */,
+				B922176E1458647500273782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B92217451458647500273782 /* Project object */;
+}
